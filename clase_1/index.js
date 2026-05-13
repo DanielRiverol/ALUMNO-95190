@@ -14,7 +14,8 @@ let resultado1= calcularTotal(2000)
 console.log(resultado1);
 let resultado2= calcularTotal(resultado1)
 console.log(resultado2);
+console.log(IVA);
 
-// console.log(total);
+// console.log(total);//no existe globalmente
 
 

@@ -7,8 +7,7 @@
 
 Comando node --watch nombre_archivo
 
-Terminar: CRL + C
-
+Terminar: CTRL + C
 
 ### Conceptos que tenemos que tener claros
 
@@ -16,3 +15,11 @@ Terminar: CRL + C
 * RETURN
 * CLASS
 * MANEJO DE ERRORES
+
+## Clase 2
+
+* Destructuring
+* Operadores (&&, | |, ??, ?  )
+* Asincronía Promesas
+* Módulos
+* async/await
