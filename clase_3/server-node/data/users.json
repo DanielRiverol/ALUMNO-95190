@@ -5,8 +5,13 @@
     "edad": 23
   },
   {
-    "id": 1,
-    "nombre": "ali",
+    "id": 2,
+    "nombre": "cami",
     "edad": 23
+  },
+  {
+    "id": 3,
+    "nombre": "dani",
+    "edad": 43
   }
 ]

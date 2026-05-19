@@ -1,0 +1,18 @@
+EJERCICIO FS
+Crear un programa que:
+Cree un archivo llamado mensaje.txt
+
+Escriba dentro: "Hola Backend"
+
+Luego lea el archivo
+
+Muestre el contenido por consola
+
+EJERCICIO HTTP
+
+Crear un servidor con http que:
+Responda "Servidor funcionando" en /
+
+Responda "Ruta saludo" en /saludo
+
+Responda "No encontrada" en cualquier otra ruta
