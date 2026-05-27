@@ -16,8 +16,9 @@ const server = http.createServer((req, res) => {
     return res.end("CONTACT");
   }
   if (req.url === "/users") {
+    // Content-Type:application/json
     const users = fs.readFileSync(usersPath, "utf-8");
-    res.setHeader("Content-Type", "application/json");
+    res.setHeader("Content-Type", "apcation/json");
 
     return res.end(users);
   }
@@ -28,3 +29,4 @@ const server = http.createServer((req, res) => {
 // http://127.0.0.1:3000 (numero de puerto)
 
 server.listen(3000, () => console.log("Server corriendo en el puerto 3000"));
+pli
