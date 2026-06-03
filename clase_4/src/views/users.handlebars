@@ -1,0 +1,16 @@
+<h1 class="text-2xl">{{title}}</h1>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+  {{#each users}}
+    <div class="card bg-base-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="text-2xl">{{name}}</h2>
+        <p class="font-bold">Email: <span>{{email}}</span></p>
+        <div class="card-actios justify-end">
+          <a href="/users/{{id}}" class="btn btn-info">Ver detalle</a>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
+</div>
