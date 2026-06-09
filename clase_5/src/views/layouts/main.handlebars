@@ -1,0 +1,18 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>{{#if title}}{{title}}{{else}}Inicio{{/if}}</title>
+  </head>
+  {{!-- enable = "dark-mode" --}}
+  <body>
+    <main class="container">
+      {{{body}}}
+    </main>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+
+     {{!-- logica del chat --}}
+     <script src="/js/index.js"></script>
+  </body>
+</html>
