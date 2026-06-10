@@ -29,6 +29,17 @@ const io = new Server(serverHttp);
 //routes
 app.use("/", viewRouter);
 // ws
+// variable auxiliar (BD)
+const messages=[]
+
 io.on("connection", (socket) => {
-  console.log(socket);
+  console.log(socket.id);
+  socket.on("message",(data)=>{
+    messages.push({
+      id:socket.id,
+      ...data
+    })
+  })
+  // dentro del on principal
+  io.sockets.emit('message-logs', messages)
 });
