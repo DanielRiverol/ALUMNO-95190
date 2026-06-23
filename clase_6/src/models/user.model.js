@@ -11,11 +11,13 @@ const userSchema = new mongoose.Schema({
     required: [true, "El email es obligatorio"],
     unique: true,
     lowercase: true,
+    trim: true,
   },
   password: {
     type: String,
     required: true,
     minlength: [6, "La contraseña debe tener al menos 6 caracteres"],
+    trim: true,
   },
 });
 
