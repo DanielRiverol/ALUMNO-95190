@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 //routes
 app.use("/api/users", userRouter);
 app.use("/api/products", productRouter);
+
 app.get("/", (req, res) => {
   res.json({ title: "Home Page" });
 });

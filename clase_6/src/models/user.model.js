@@ -21,4 +21,6 @@ const userSchema = new mongoose.Schema({
   },
 });
 
+
+// pre 
 export const User = mongoose.model("User", userSchema);
